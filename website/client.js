@@ -4,7 +4,7 @@ const postData = async ( url = '', data = {}) => {
         method: 'POST',  // GET, POST, PUT, DELETE, etc.
         credentials: 'same-origin', //include, *same-origin, omit
         headers: {
-            'Content-Type': 'application/ json',
+            'Content-Type': 'application/json',
         },
         body: JSON.stringify(data),
     });

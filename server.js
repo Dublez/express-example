@@ -45,5 +45,5 @@ app.post('/addMovie', addMovie);
 function addMovie(req, res){
     data.push(req.body);
     console.log(data);
-    res.send(`Data received: ${data}`);
+    res.send(data);
 }
